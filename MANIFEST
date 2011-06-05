@@ -1,11 +1,12 @@
 CountObjects.xs
-CountObjects.xs~
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
 dist.ini
-dist.ini~
 lib/Internals/CountObjects.pm
 ppport.h
+t/release-pod-coverage.t
+t/release-pod-syntax.t

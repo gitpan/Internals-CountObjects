@@ -11,7 +11,9 @@ use ExtUtils::MakeMaker 6.31;
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'Report all allocated perl objects',
   'AUTHOR' => 'Josh Jore <jjore@cpan.org>',
-  'BUILD_REQUIRES' => {},
+  'BUILD_REQUIRES' => {
+    'ExtUtils::CBuilder' => '0'
+  },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
   },
@@ -20,9 +22,9 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Internals::CountObjects',
   'PREREQ_PM' => {},
-  'VERSION' => '0.01',
+  'VERSION' => '0.03',
   'test' => {
-    'TESTS' => ''
+    'TESTS' => 't/*.t'
   }
 );
 
