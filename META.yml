@@ -17,4 +17,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Internals-CountObjects
   homepage: http://search.cpan.org/dist/Internals-CountObjects
   repository: git://github.com/jbenjore/Internals-CountObjects.git
-version: 0.03
+version: 0.04

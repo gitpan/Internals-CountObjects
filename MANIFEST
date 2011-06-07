@@ -1,3 +1,5 @@
+#dist.ini#
+#test.pl#
 CountObjects.xs
 LICENSE
 MANIFEST
@@ -8,5 +10,6 @@ README
 dist.ini
 lib/Internals/CountObjects.pm
 ppport.h
+t/basic.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
