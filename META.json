@@ -18,11 +18,6 @@
          "requires" : {
             "ExtUtils::CBuilder" : 0
          }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
-         }
       }
    },
    "release_status" : "stable",
@@ -38,6 +33,6 @@
          "web" : "http://github.com/jbenjore/Internals-CountObjects"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 

@@ -1,6 +1,6 @@
 package Internals::CountObjects;
 BEGIN {
-  $Internals::CountObjects::VERSION = '0.04';
+  $Internals::CountObjects::VERSION = '0.05';
 }
 # ABSTRACT: Report all allocated perl objects
 
@@ -86,7 +86,7 @@ Internals::CountObjects - Report all allocated perl objects
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
